@@ -1,0 +1,200 @@
+h1 {
+    font-size: 24px;
+}
+
+.navbar-brand {
+    font-size: 28px;
+}
+
+.jumbotron {
+    width: 75%;
+    /* height: 650px; */
+    margin: 100px auto 50px auto;
+    border: 1px solid rgb(0, 197, 197);
+}
+
+.youngCong{
+    width: 145px;
+    height: 225px;
+    float: left;
+    text-align: center;
+    padding-right: 20px;
+           
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.footer{
+    position: absolute;
+    margin-top: 200px;
+    width: 100%;
+    border-top: solid rgb(0, 197, 197) 3px;
+}
+
+.container{
+    height: 1000px;
+}
+
+
+
+.header {
+    background: rgb(203,228,254);
+    height: 100px;
+    border-bottom: solid 3px rgb(0, 197, 197);;
+}
+
+.congDiv {
+    margin: auto;
+    text-align: center;
+    font-family: 'Knewave', cursive;
+}
+
+.cong{
+    font-size: 38px;
+    color: rgb(0, 197, 197);
+}
+
+.cong:hover {
+    color:white
+}
+
+.header-link{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header-link:hover{
+    color: white;
+}
+
+.linkDiv {
+    text-align: center;
+}
+
+.congDiv{
+    padding: 5px 0 1px 0;
+}
+
+
+.aboutMe {
+    font-size: 36px;
+    color:purple;
+    font-family: 'Patua One', cursive;
+}
+
+p {
+    color:purple;
+    font-weight: bold;
+}
+
+
+/* MODAL CSS */
+.modal {
+    display:none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content{
+    background-color: #f4f4f4;
+    border: gray solid 1px;
+    margin: 20% auto;
+    width: 40%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+.modal-header h2, .modal-footer h3{
+    margin: 0;
+}
+
+.modal-header{
+    background-color: rgb(0, 197, 197);
+    padding: 15px;
+    color: rgb(0, 197, 197);
+}
+
+.modal-body {
+    padding: 10px 20px;
+}
+
+
+.closeBtn {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+
+.closeBtn:hover, .closeBtn:focus {
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modalBtn:hover{
+    color: white;
+}
+
+.modalHeader {
+    text-align: center;
+}
+
+@keyframes modalopen{
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+
+.box1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.rounded{
+    border: 2px solid rgb(0, 197, 197);
+}
+
+.github {
+    font-size: 50px;
+    list-style: none;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    color: #262626;
+    z-index: 1;
+    transition: .3s ease-in-out;
+}
+
+.tryIt {
+    margin-right: 20px;
+    margin-bottom: 37px;
+}
+
+.tryIt:hover{
+    background: black;
+}
+
+.portfolio {
+    font-size: 36px;
+    font-family: 'Patua One', cursive;
+    color: purple;
+}
+
+.contact {
+    font-family: 'Patua One', cursive;
+    color: purple;
+}

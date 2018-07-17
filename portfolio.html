@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Knewave|Indie+Flower|Patua+One" rel="stylesheet">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Font Awesome  CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <title>Portfolio</title>
+
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-12 nameHeader">
+                  <div class="congDiv ">
+                      <span class="cong">Cong Nguyen</span>
+                  </div>
+              </div>
+
+              <div class="col-6"></div>
+              <div class="row col-lg-12 justify-content-center linkDiv">
+                  <a class="header-link" href="index.html">About </a>
+                  <a class="header-link" href="portfolio.html">Portfolio </a>
+                  <a id= "modalBtn" class="header-link" href="#modalBtn">Contact </a>
+              </div>
+
+              <!-- MODAL -->
+              <div id="modalBox" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                      <h2 class="modalHeader contact">Contact</h2>
+                      <span class="closeBtn">&times;</span>
+                  </div>
+      
+                  <div class="modal-body">
+                      <p>Hi!</p>
+                      <p>Please feel free to contact me via email: CodeNowCong@gmail.com </p>
+                  </div>                        
+                </div>
+              </div>
+
+          </div>
+        </div>
+    </div>
+
+      <div class="jumbotron">
+        <h1 class="display-6 portfolio">Portfolio</h1>
+        <hr class="my-3">
+
+        <!-- 1st row of portfolio -->
+        <div class="row justify-content-center">
+          <div class="col-lg-5 picBox">
+            <img src="assets/images/GameHub.png"  class="rounded card-img-top" alt="GameHub">
+          </div>
+          
+          <div class="col-lg-5">
+              <img src="assets/images/PsycGame.jpg"  class="rounded card-img-top" alt="PsychicGame">
+          </div>
+        </div>
+
+        <br>
+        <div class="row justify-content-center">
+          <div class="picTitle col-lg-5 box1">
+            <p>GameHub</p>
+          </div>
+          <div class="picTitle col-lg-5 box1">
+            <p>Psychic Game</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-5 box1">
+            <a href="https://amh5366.github.io/GameHub/" class="btn btn-primary tryIt" title="try GameHub!">Click to view</a>
+            <a class="fab fa-github github" href="https://github.com/amh5366/amh5366.github.io.git" data-toggle="tooltip" data-placement="top" title="GameHub Repo"></a>            
+          </div>
+
+          <div class="col-lg-5 box1">
+            <a href="https://codenowcong.github.io/Psychic-Game/" class="btn btn-primary tryIt" title="Try the Pyschic Game!">Click to view</a>
+            <a class="fab fa-github github" href="https://github.com/codenowcong/Psychic-Game.git" data-toggle="tooltip" data-placement="top" title="Pyschic Game Repo"></a>              
+          </div>
+        </div>
+
+        <hr class="my-5">
+
+        <!-- 2nd row of portfolio -->
+        <div class="row justify-content-center">
+          <div class="col-lg-5 picBox">
+            <img src="assets/images/TriviaGame.png"  class="rounded card-img-top" alt="TriviaGame">
+          </div>
+          
+          <div class="col-lg-5">
+              <img src="assets/images/TrainSchedule.png"  class="rounded card-img-top" alt="TrainSchedule">
+          </div>
+        </div>
+
+        <br>
+        <div class="row justify-content-center">
+          <div class="picTitle col-lg-5 box1">
+            <p>Trivia Game!</p>
+          </div>
+          <div class="picTitle col-lg-5 box1">
+            <p>Train Schedule</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-5 box1">
+            <a href="https://codenowcong.github.io/TriviaGame/" class="btn btn-primary tryIt" title="Try the Trivia Game!">Click to view</a>
+            <a class="fab fa-github github" href="https://github.com/codenowcong/TriviaGame.git" data-toggle="tooltip" data-placement="top" title="Trivia Game Repo"></a>            
+          </div>
+
+          <div class="col-lg-5 box1">
+            <a href="https://codenowcong.github.io/ChooChooTime/" class="btn btn-primary tryIt" title="Try the Train Schedule">Click to view</a>
+            <a class="fab fa-github github" href="https://github.com/codenowcong/ChooChooTime.git" data-toggle="tooltip" data-placement="top" title="Train Schedule Repo"></a>              
+          </div>
+        </div>
+
+
+      </div>
+
+<script src="mainJS.js"></script>
+</body>
+
+<div class="footer py-4 alert-primary">
+    <div class="copyright">© 2018 Copyright
+    </div>
+</div>
+</html>
